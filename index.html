@@ -1,71 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>About Me</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-            <h1>Grayson Wagner</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item menulink">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item menulink">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item menulink">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <div id="viewport">  
+    <header>     
+      <div>
+        <h1>Grayson Wagner</h1> 
+      </div>
+      <nav>
+        <a href="#about-section" >About Me</a>
+        <a href="#work-section">Work</a>
+        <a href="#contact-section">Contact Me</a>      
+      </nav>      
+    </header>    
+  </div>   
 
-    <!-- Main Content -->
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="pull-left"><img id="picture-of-me" alt= "My Picture" src="assets/images/coder.jpg" class="rounded"></div>
-        <div class="pull-left">
-            <p>
-               Hello World:)
 
-            </p>
-            <p>
-              My name is Grayson Wagner and I am a 19 year old new to coding. 
-      
-            </p>
-            <p>
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam earum id incidunt iusto voluptatibus quibusdam ea nisi, unde quasi vel aperiam, quis inventore voluptatum, fugiat minus rerum excepturi ratione voluptas.
-            </p>
-        </div>
+  <section class="about">
+    <div class="section-title">
+      <h3 id="about-section">About Me</h3>
     </div>
+    <div class="section-content bio">                      
+      <p> Grayson Wagner, born in St. paul, Minnesota. Raised in Woodbury, Minnesota. </p>
+      <p> Hungry and driven to complete any task thrown his way, MERN Stack student at the University on Minnesota.</p>        
+    </div>
+  </section>
 
+    <section class="work">
+      <div class="section-title">
+        <h3 id="work-section">Work</h3>  
+      </div>              
+      <div class="section-content work-items">
+        <a href="https://www.mindsetdesign.com" target="_blank" class="main-item item" id="one">           
+          <div class="tag">          
+            <div class="title">Maxi™</div>
+            <div class="subtitle">Mindset Design</div>
+          </div>                
+        </a>        
+        <a href="https://github.com" target="_blank" class="item" id="two">           
+          <div class="tag">
+            <div class="title">Github homepage</div>
+            <div class="subtitle">Best coding tool ever</div>
+          </div>
+        </a>      
+        <a href="https://drawsql.app" target="_blank" class="item" id="two">           
+          <div class="tag">
+            <div class="title">Draw SQL</div>
+            <div class="subtitle">Sweet sql tool</div>
+          </div>
+        </a>         
+        <a href="https://react-icons.github.io/react-icons/search?q=github" target="_blank" class="item" id="four">           
+          <div class="tag">
+            <div class="title">React Icons</div>
+            <div class="subtitle">Awesome github repo for react icons</div>
+          </div>
+        </a>            
+        <a href="https://chakra-ui.com/" target="_blank" class="item" id="five">           
+          <div class="tag">
+            <div class="title">Chakra</div>
+            <div class="subtitle">A recource reccomended by Gary</div>
+          </div>
+        </a>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small blue fixed-bottom">
-        <div class="footer-copyright text-center py-3">© Copyright
-        </div>
-    </footer>
-
-
+    <section class="contact">
+      <div class="section-title">
+        <h3 id="contact-section">Contact Me</h3>
+      </div>
+      <div class="section-content contact-info">
+        <a href="tel:651-285-2887">651.286.2887</a>
+        <a href="mailto:graysonwwagner@gmail.com" target="_blank">graysonwwagner@gmail.com</a>
+        <a href="https://github.com/graysonwagner" target="_blank">Github</a>
+      </div>
+    </section>
+  
 </body>
 
 </html>
